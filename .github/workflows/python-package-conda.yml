@@ -16,7 +16,6 @@ jobs:
         egress-policy: block
         allowed-endpoints: >
           github.com:443
-          google.com:80
     - uses: actions/checkout@v3
     - name: Running connection check
       run: curl http://google.com
