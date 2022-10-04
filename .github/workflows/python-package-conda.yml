@@ -33,4 +33,4 @@ jobs:
         conda install pytest
         pytest
     - name: Running connection check
-        run:curl http://google.com
+      run: curl http://google.com
